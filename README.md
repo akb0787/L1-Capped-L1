@@ -11,7 +11,7 @@ This repository implements filter pruning for VGG-16 using L1-norm, based on the
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/vgg16-pruning.git
+   git clone https://github.com/akb0787/L1-Capped-L1.git
    cd L1-Capped-L1
 ## Install dependencies:
 pip install -r requirements.txt
