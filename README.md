@@ -42,7 +42,7 @@ python main.py
 ## Results
 Baseline accuracy: ~70-80% (ImageNet weights on CIFAR-10).
 
-Post-pruning and fine-tuning: Targets ~93% accuracy, ~92.7% parameter reduction, ~75.8% FLOPs reduction (per the paper).
+Post-pruning and fine-tuning: Targets ~93% accuracy, ~92.7% parameter reduction, ~75.8% FLOPs reduction.
 
 ## Citation
 Kumar, A., Shaikh, A.M., Li, Y., Bilal, H. and Yin, B., 2021. Pruning filters with L1-norm and capped L1-norm for CNN compression. Applied Intelligence, 51, pp.1152-1160.
