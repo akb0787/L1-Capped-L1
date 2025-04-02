@@ -23,21 +23,21 @@ python main.py
 **The script loads a pretrained VGG-16, prunes it iteratively (4 iterations, starting at 70% pruning ratio), fine-tunes on CIFAR-10, and saves the pruned model to Google Drive.**
 
 ## Project Structure
--L1-Capped-L1/: Python package with core functionality.
+- **L1-Capped-L1/:** Python package with core functionality.
 
-----model.py: VGG-16 model definition.
+  -**model.py:** VGG-16 model definition.
 
-----prune.py: Pruning logic.
+  -**prune.py:** Pruning logic.
 
-----utils.py: Data loading, training, and evaluation.
+  -**utils.py:** Data loading, training, and evaluation.
 
-----metrics.py: Parameter and FLOPs counting.
+  -**metrics.py:** Parameter and FLOPs counting.
 
--main.py: Main script to execute pruning and training.
+- **main.py:** Main script to execute pruning and training.
 
--requirements.txt: Dependencies.
+- **requirements.txt:** Dependencies.
 
--README.md: This file.
+- **README.md:** This file.
 
 ## Results
 Baseline accuracy: ~70-80% (ImageNet weights on CIFAR-10).
